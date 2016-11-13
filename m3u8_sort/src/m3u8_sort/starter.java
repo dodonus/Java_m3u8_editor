@@ -7,6 +7,7 @@ import java.util.regex.Matcher;
 class finder {
 
 
+	// class for find substring by regex
 	public String find(String regex, String inner) {
 		String result = new String("loser");
 		Pattern pattern = Pattern.compile(regex);
@@ -20,7 +21,7 @@ class finder {
 
 }
 
-
+// class for m3u8 records
 class obj_exf{
 	int num;
 	String extinf = new String();
@@ -38,7 +39,7 @@ class obj_exf{
 	}
 	
 }
-
+// main class
 public class starter {
 
 	public static void main(String[] args) {
@@ -80,14 +81,7 @@ public class starter {
 				
 				
 			}
- 		//}
-		//catch(IOException ioe) {
- 		//ioe.printStackTrace();
- 		//}
-//obj_exf test = new obj_exf(1,"zuh","zuhzuh","http://zuh.com");
-//System.out.println(test.num);
-//test.change_n(3);
-//System.out.println(test.num);
+
 
 	}
 
